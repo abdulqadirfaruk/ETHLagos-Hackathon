@@ -37,7 +37,7 @@ class App extends Component {
       const Contract = truffleContract(IPFSInboxContract);
       Contract.setProvider(web3.currentProvider);
       const instance = await Contract.deployed();
-      
+
       // Set web3, accounts, and contract to the state, and then proceed with an
       // example of interacting with the contract's methods.
       this.setState({ web3, accounts, contract: instance });
@@ -50,6 +50,7 @@ class App extends Component {
       console.error(error);
     }
   };
+
   // Turn the File submitted into a buffer
   captureFile = (event) => {
     event.stopPropagation();
