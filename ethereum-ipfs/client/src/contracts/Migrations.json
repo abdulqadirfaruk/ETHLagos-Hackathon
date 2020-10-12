@@ -887,51 +887,15 @@
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {
-    "1602207278059": {
+    "1602501922314": {
       "events": {},
       "links": {},
-      "address": "0x17A658Acc824532F6Abe94c7dEE13CbB5924cAEe",
-      "transactionHash": "0x2627c4a215d568680716ed069c23acefffa29456aa5bb36ca83b01b11cb708a7"
-    },
-    "1602213011022": {
-      "events": {},
-      "links": {},
-      "address": "0x8Aa6a61FB8eA84426Dd2eC4D4BD56c6CfC01c31C",
-      "transactionHash": "0x20f01e3b8aca77b7b6e994b1b2a2e7d746f6fe88c13ddd576f312fd14e8bc266"
-    },
-    "1602213824442": {
-      "events": {},
-      "links": {},
-      "address": "0x8795476012CbC3c23426c282FaC6091E3ac5D1aD",
-      "transactionHash": "0x23704eeff4a819abe8b175837860ef85b7b8117515d8b530e87ebab6cd38f983"
-    },
-    "1602215013926": {
-      "events": {},
-      "links": {},
-      "address": "0x8cE01783Ff3aB61184aBCbfCc9F1327e5dB70D47",
-      "transactionHash": "0xcc5a935aeff33ccb33faac6037ee4ba3d308d102c84c5ed105ea354e64d4daa7"
-    },
-    "1602233260752": {
-      "events": {},
-      "links": {},
-      "address": "0x59550fa68Bd039F23B4596D4cEDCef256bbD646b",
-      "transactionHash": "0xb284b461833de193ee8a5277af85a6ae0e05fdbc497fd965040a0ca28b04959c"
-    },
-    "1602244118831": {
-      "events": {},
-      "links": {},
-      "address": "0xD542B0d6ABC80E9829FeC0697810e2d9e5ED9CbD",
-      "transactionHash": "0x816d259784d5709e228eb0bf4513931cd6611d050cf2412d0be6a8613028a627"
-    },
-    "1602252905023": {
-      "events": {},
-      "links": {},
-      "address": "0x276265f09f699848D28479124ED15fb098304301",
-      "transactionHash": "0x3b79c24ab8abd18dbb515e4274ac596a652fec377abcda13cbea079f1dcb2ccf"
+      "address": "0x272b69204029E77A295B43c1acE2bd5b17641594",
+      "transactionHash": "0x623ef9c53dd3796145978df7301bbfba18640779d953e118ffc66d8846ed6838"
     }
   },
   "schemaVersion": "3.3.0",
-  "updatedAt": "2020-10-09T14:15:29.579Z",
+  "updatedAt": "2020-10-12T11:25:34.060Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

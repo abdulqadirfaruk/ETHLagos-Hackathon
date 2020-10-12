@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import truffleContract from "@truffle/contract";
-import IPFSInboxContract from "./IPFSInbox.json";
+import IPFSInboxContract from "./contracts/IPFSInbox.json";
 import getWeb3 from "./getWeb3";
 import ipfs from './ipfs';
 
