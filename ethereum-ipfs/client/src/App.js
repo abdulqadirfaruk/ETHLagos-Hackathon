@@ -99,7 +99,7 @@ class App extends Component {
 
     document.getElementById('new-notification-form').reset();
     this.setState({showNotification: true});
-    contract.sendIPFS(this.state.formAddress, this.state.formIPFS, {from: account})
+    contract.sentIPFS(this.state.formAddress, this.state.formIPFS, {from: account})
       .then(result => {
         this.setState({formAddress: ""});
         this.setState({formIPFS: ""});
@@ -124,7 +124,8 @@ class App extends Component {
           <input type="file" onChange={this.captureFile} />
           <button type="submit">Send It</button>
         </form>
-        <p>The IPFS hash is:{this.state.ipfsHash}</p>
+        <p>The IPFS hash is: {this.state.ipfsHash}</p>
+
         <h2>2. Send Notification here.</h2>
         <form id="new-notification-form" className="scep-form" onSubmit={this.handleSend}>
           <label>
@@ -137,6 +138,7 @@ class App extends Component {
           </label>
           <input type="submit" value="submit" />
         </form>
+
         <h2>3. Receive Notifications</h2>
         <button onClick={this.handleReceiveIPFS}>Receive IPFS</button>
         <p>{this.state.receivedIPFS}</p>
